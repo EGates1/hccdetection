@@ -1,6 +1,7 @@
 #install.packages("shiny",repos='http://cran.us.r-project.org')
 #install.packages("DT",repos='http://cran.us.r-project.org')
 library(shiny)
+library(DT)
 
 # @egates1 - best practices for scope ?
 # load data outside server so it is added to global environment
